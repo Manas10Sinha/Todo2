@@ -31,11 +31,11 @@ const Post = ({ post }) => {
         <p className="card-text">{post.body}</p>
 
         <div>
-          {post.tags.map((tag, index) => (
+          {/*post.tags.map((tag, index) => (
             <span className="badge text-bg-primary tag" key={index}>
               {tag}
             </span>
-          ))}
+          ))*/}
         </div>
         <div className="alert alert-success alert" role="alert">
           This post is reacted by 1 people
